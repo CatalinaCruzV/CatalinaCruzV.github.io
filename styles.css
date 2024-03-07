@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+
+header{
+
+    display: flex;
+    background-color: rgba(78, 22, 95, 0.329);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header h1{
+    font-family: "Monoton", sans-serif;
+    color: rgb(43, 34, 51);
+    margin: 5px;
+    padding-top: 20px;
+}
+
+#presentacion{
+    text-align: center;
+    margin-top: 150px;
+    padding: 0px 60px 30px 60px;
+}
+
+
+#logo{
+    width: 15%;
+    height: 15%;
+    margin-top: 0px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-top: 30px;
+}
+
+nav ul li a{
+    margin: 30px;
+    color: brown;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(197, 158, 235);
+}
+
+#texto{
+    margin: 10px;
+    
+}
+
+section{
+    display: flexbox;
+    text-align: center;
+}
+
+
+section div{
+    margin: 0px 35px;
+}
+
+
+section div h2{
+    text-align: center;
+}
+
+section div h3{
+    text-align: center;
+}
+
+section img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+section p{
+    text-align: justify;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(48, 12, 48);
+
+}
